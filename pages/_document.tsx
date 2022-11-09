@@ -1,6 +1,6 @@
-import Document,{ Html, Head, Main, NextScript, DocumentContext, DocumentInitialProps } from 'next/document'
-
-import { CssBaseline } from "@nextui-org/react";
+import React from 'react';
+import Document, { Html, Head, Main, NextScript , DocumentContext, DocumentInitialProps} from 'next/document';
+import { CssBaseline } from '@nextui-org/react';
 
 
 class MyDocument extends Document {
@@ -31,3 +31,4 @@ render() {
 }
 
 export default MyDocument
+

@@ -1,6 +1,7 @@
 import React, { FC } from 'react'
 
 import Head from 'next/head'
+import { Navbar } from '../ui';
 
 type Props = {
     children?: React.ReactNode,
@@ -16,8 +17,10 @@ export const Layout: FC<Props> = ( { children, titulo }) => {
         <meta name="descripcion" content="Hoja pedido materiales" />
         <meta name="keywords" content={ `${titulo}, Ezentis `}/>
       </Head> 
-
-      <main>
+      <Navbar />  
+      <main style={{
+        padding:'0px 50px'
+      }}>
         { children }
       </main> 
     </>
