@@ -22,7 +22,7 @@ const pedidoMaterial:NextPage<Props>= ( {material} ) => {
                     material.map(({Id, Imagen, Descripcion})=>(
                         <li key={Id}>
                             {/* <Image src={Imagen} alt=" lo mejor" height="50" width="50" /> */}
-                            <h3>{Descripcion}</h3>
+                            <h3>{Descripcion}venga</h3>
                         </li>
                     ))
                            
